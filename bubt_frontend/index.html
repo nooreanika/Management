@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bangladesh University of Business and Technology (BUBT)</title>
+<link rel="shortcut icon" href="frontend/image/favicon.ico" />
+	<!-- basic styles -->
+	<link href="frontend/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="frontend/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="frontend/css/default.css" />
+	<link rel="stylesheet" href="frontend/css/admincss.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<!--<![endif]-->
+
+
+	<script src="frontend/js/jquery.min.js"></script>
+ 
+  <script src="assets/js/ace-elements.min.js"></script> 
+	<script src="assets/js/coustom.js"></script>
+  <script type="text/javascript">
+
+  var base_url ="#";
+  </script>
+</head>
+<body>
+      <!-- main-body start here -->
+	   
+      <div class="main-body container">
+        <!-- header start here -->
+        <header class="row">
+          <div id="header-menu" class="bg-sky">
+            <div class="container ">
+                <div class="container">
+                    <div class="col-md-6">
+                        <img class="img-responsive" alt="Bangladesh University of Business and Technology(BUBT)" src="frontend/image/logo.png">
+                    </div>
+                    <div class="col-md-6 log-in">
+                        <ul class="nav nav-pills pull-right">
+
+                            <li><a href="#"><i class="fa fa-newspaper-o"></i> News </a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i> Web-mail </a></li>
+                            <li><a href="http://localhost/bubt_backend/"><i class="fa fa-user"></i> Login </a></li>
+                            <li><a href="html5-contact-form/index.html"><i class="fa fa-credit-card"></i> Contact </a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <form class="form-inline pull-right search-form" role="form">
+                            <div class="form-group">
+                                <input id="searchInput" class="form-control input" style="margin-right:-10px; width:237px;" type="text" placeholder="Search here">
+                                <button class="form-control  input"  style="margin-left:0px;background-color:#1D71BF;color:white;" >
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+              <!--<div id="brand-text" class="text-white col-md-6"></div>
+              <div class="col-md-6">
+                <ul class="nav nav-pills pull-right">
+                  <li><a href="javascript:"><i class="fa fa-newspaper-o"></i> News </a></li>
+                  <li><a href="javascript:"><i class="fa fa-envelope"></i> Web-mail </a></li>
+                  <li><a href="javascript:"><i class="fa fa-user"></i> Login </a></li>
+                  <li><a href="javascript:"><i class="fa fa-credit-card"></i> Contact </a></li>
+                </ul>
+              </div>
+            </div>  -->
+          </div>
+        </header>
+        <!-- header end here -->
+         <!-- main menu navigation start here -->
+        <div id="main-menu" class="row" >
+            <nav class="navbar navbar-default bg-blue" role="navigation" >
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#megamenu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+					 <div class="collapse navbar-collapse" id="megamenu">
+						<ul class="nav navbar-nav menu-bar">
+							<li class='dropdown'><a href='#' class='dropdown-toggle menuLoadView ' id='1' data-toggle='dropdown' role='button' aria-expanded='false'>Home <span class='sr-only'>(current)</span></a></li><li class='dropdown'><a href='#' class='dropdown-toggle   ' id='2' data-toggle='dropdown' role='button' aria-expanded='false'>About BUBT <span class='caret'></span></a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>History</a></li><li><a href='#' class='menuLoadView'>Aim and Objective</a></li><li><a href='#' class=' '>Message</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Message of the Chairman</a></li></ul></li><li><a href='#' class='menuLoadView'>Board of Trustees</a></li><li><a href='#' class='menuLoadView'>BUBT Syndicate</a></li><li><a href='#' class='menuLoadView'>BUBT Campus</a></li><li><a href='#' class='menuLoadView'>E-mail Address</a></li><li><a href='#' class='menuLoadView'>How to locate</a></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle   ' id='12' data-toggle='dropdown' role='button' aria-expanded='false'>Administration <span class='caret'></span></a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>BUBT Administration</a></li><li><a href='#' class='menuLoadView'>Officers of BUBT</a></li><li><a href='#' class='menuLoadView'>Office of the Vice-Chancellor</a></li><li><a href='#' class='menuLoadView'>Office of the Pro-Vice Chancellor</a></li><li><a href='#' class='menuLoadView'>Office of the Registrar</a></li><li><a href='#' class=' '>Office of the Exam Controller</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Notice Board</a></li><li><a href='#' class='menuLoadView'>Exam Schedule</a></li><li><a href='#' class='menuLoadView'>Download Centre</a></li></ul></li><li><a href='#' class='menuLoadView'>Office of the Proctor</a></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle   ' id='24' data-toggle='dropdown' role='button' aria-expanded='false'>Academic Information <span class='caret'></span></a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Academic Semester Duration</a></li><li><a href='#' class='menuLoadView'>Rules and Regulations</a></li><li><a href='#' class='menuLoadView'>Evaluation and Grading System</a></li><li><a href='#' class=' '>Degree offered</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Undergraduate Programs</a></li><li><a href='#' class='menuLoadView'>Graduate Programs</a></li></ul></li><li><a href='#' class='menuLoadView'>Academic Result</a></li><li><a href='#' class='menuLoadView'>Registration Procedure</a></li><li><a href='#' class='menuLoadView'>Class Routine</a></li><li><a href='#' class=' '>Course Offer List</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>BBA Program</a></li><li><a href='#' class='menuLoadView'>CSE Department</a></li><li><a href='#' class='menuLoadView'>EEE Department</a></li><li><a href='#' class='menuLoadView'>Economics Department</a></li><li><a href='#' class='menuLoadView'>Department of Law and Justice</a></li><li><a href='#' class='menuLoadView'>Department of Mathematics</a></li><li><a href='#' class='menuLoadView'>MBA Program</a></li><li><a href='#' class='menuLoadView'>MBM Program</a></li><li><a href='#' class='menuLoadView'>Department of English</a></li><li><a href='#' class='menuLoadView'>Department of Textile Engineering</a></li></ul></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle   ' id='30' data-toggle='dropdown' role='button' aria-expanded='false'>Admission <span class='caret'></span></a><ul class='dropdown-menu' role='menu'><li><a href='#' class=' '>Admission Requirement</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Undergraduate Programs</a></li><li><a href='#' class='menuLoadView'>Graduate Programs</a></li></ul></li><li><a href='#' class='menuLoadView'>Admission Procedure</a></li><li><a href='#' class=' '>Tuition Fees</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Undergraduate Programs</a></li><li><a href='#' class='menuLoadView'>Graduate Programs</a></li></ul></li><li><a href='#' class='menuLoadView'>Scholarship and Waiver</a></li><li><a href='#' class='menuLoadView'>Facilities & Logistics</a></li><li><a href='#' class='menuLoadView'>Admission Form</a></li><li><a href='#' class='menuLoadView'>Admission Notice</a></li><li><a href='#' class='menuLoadView'>Admission Office Address</a></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle   ' id='34' data-toggle='dropdown' role='button' aria-expanded='false'>Faculty <span class='caret'></span></a><ul class='dropdown-menu' role='menu'><li><a href='#' class=' '>Faculty of Business</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Department of Management</a></li><li><a href='#' class='menuLoadView'>Department of Finance</a></li><li><a href='#' class='menuLoadView'>Department of Finance</a></li><li><a href='#' class='menuLoadView'>Department of Accounting</a></li><li><a href='#' class='menuLoadView'>Department of Marketing</a></li><li><a href='#' class='menuLoadView'>Master of Business Administration (MBA)</a></li><li><a href='#' class='menuLoadView'>Executive MBA</a></li><li><a href='#' class='menuLoadView'>Master of Bank Management (MBM)</a></li><li><a href='#' class='menuLoadView'>Notice Board</a></li></ul></li><li><a href='#' class=' '>Faculty of Engineering & Applied Sciences</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Department of CSE</a></li><li><a href='#' class='menuLoadView'>Department of EEE</a></li><li><a href='#' class='menuLoadView'>Department of Textile Engineering</a></li></ul></li><li><a href='#' class=' '>Faculty of Arts &amp; Humanities</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Department of English</a></li><li><a href='#' class='menuLoadView'>Faculty List</a></li></ul></li><li><a href='#' class=' '>Faculty of Social Sciences</a><ul class='dropdown-menu' role='menu'><li><a href='content/98' class='menuLoadView'>Department of Economics</a></li><li><a href='#' class='menuLoadView'>Faculty List</a></li></ul></li><li><a href='#' class=' '>Faculty of Mathematical &amp; Physical Scienc</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Department of Mathematics</a></li><li><a href='#' class='menuLoadView'>Faculty List</a></li></ul></li><li><a href='#' class=' '>Faculty of Law</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Department of Law and Justice</a></li><li><a href='#' class='menuLoadView'>Faculty List</a></li></ul></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle   ' id='40' data-toggle='dropdown' role='button' aria-expanded='false'>My BUBT <span class='caret'></span></a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Business Club</a></li><li><a href='#' class='menuLoadView'>Cultural Club</a></li><li><a href='#' class=' '>IT Club</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Constitution</a></li><li><a href='#' class='menuLoadView'>Committee</a></li><li><a href='#' class='menuLoadView'>Activity</a></li><li><a href='#' class='menuLoadView'>Notice</a></li></ul></li><li><a href='#' class='menuLoadView'>Language Club</a></li><li><a href='#' class='menuLoadView'>Career Development Office</a></li><li><a href='#' class='menuLoadView'>Convocation</a></li><li><a href='#' class='menuLoadView'>BUBT Robotics Club</a></li><li><a href='#' class=' '>Sports Club</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>Match Fixture of Indoor Games</a></li><li><a href='#' class='menuLoadView'>Results of Indoor Games-2012</a></li></ul></li><li><a href='#' class='menuLoadView'>Research and Journal</a><ul class='dropdown-menu' role='menu'><li><a href='#' class='menuLoadView'>BUBT Journal, 2013</a></li></ul></li><li><a href='#' class='menuLoadView'>Debating Club of BUBT</a></li><li><a href='#' class='menuLoadView'>Debating Club of BUBT</a></li><li><a href='#' class='menuLoadView'>Alumni Association</a></li><li><a href='#' class='menuLoadView'>BUBT Rover Scout Group</a></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle menuLoadView ' id='45' data-toggle='dropdown' role='button' aria-expanded='false'>Career <span class='caret'></span></a></li><li class='dropdown'><a href='#' class='dropdown-toggle menuLoadView ' id='46' data-toggle='dropdown' role='button' aria-expanded='false'>Gallery <span class='caret'></span></a></li>						</ul>
+					</div>  
+                   
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <!-- main menu navigation end here -->		<div class="page-content">
+	<div id="view-page" class="page-content ajax-page">
+
+	<style type="text/css">
+.l_notice{ text-align: left;}
+.published-date{ font-size: 12px; padding-left: 10px; color: gray;}
+
+.carousel-inner1 {
+    min-height: 403px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.carousel-indicators1 {    
+    left: 50%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    z-index: 15;
+}
+.archive{ height:450px; position: relative; }
+.readmore{bottom: 3px; 
+   
+    position: absolute;
+    right: 5px;
+}}
+
+</style>
+
+<script src="frontend/js/carouFredSel.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // Using default configuration
+   
+
+    // Using custom configuration
+    $('#carousel').carouFredSel({
+        items               : 5,
+        direction           : "up",
+        scroll : {
+            items           : 1,
+           
+            duration        : 500,                         
+            pauseOnHover    : true
+        }                   
+    });
+
+
+    
+     $('#latest').carouFredSel();
+
+    // Using custom configuration
+    $('#latest').carouFredSel({
+        items               : 1,
+        direction           : "up",
+        scroll : {
+            items           : 1,
+           
+            duration        : 500,                         
+            pauseOnHover    : true
+        }                   
+    });
+});
+</script>
+        <!-- banner start here -->
+        <div id="banner" class="row">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="">
+			                <div class="item active">
+                <img src="assets/banner/1422009858.jpg" alt="BUBT">
+                
+              </div>
+                            <div class="item ">
+                <img src="assets/banner/1422009864.jpg" alt="BUBT">
+                
+              </div>
+                            <div class="item ">
+                <img src="assets/banner/1422009871.jpg" alt="BUBT">
+                
+              </div>
+                            <div class="item ">
+                <img src="assets/banner/1422009876.jpg" alt="BUBT">
+                
+              </div>
+                            <div class="item ">
+                <img src="assets/banner/1422009881.jpg" alt="BUBT">
+                
+              </div>
+              <div class="item ">
+                <img src="assets/banner/img.jpg" alt="BUBT">
+                
+              </div>
+                <div class="item ">
+                <img src="assets/banner/img2.jpg" alt="BUBT">
+                
+              </div>
+                <div class="item ">
+                <img src="assets/banner/banner.jpg" alt="BUBT">
+                
+              </div>
+                <div class="item ">
+                <img src="assets/banner/maxresdefault.jpg" alt="BUBT">
+                
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!-- banner end here -->
+		
+		
+
+    		
+
+        <div class="row  padding-bt-10">
+          <div class="container ">
+
+              <!-- Latest news here -->
+                                                  
+
+            <div style="border-bottom: 1px solid #1d71bf; color: #193995;border-top: 3px solid #1d71bf; height: 33px; margin: 0 10px; padding: 6px;" >
+                  <div style="float:left; font-weight: bold;"> Latest: </div>
+                  <div id="latest" class="col-md-10">  
+                        
+                   <p> <a href="#"> University Authority has taken disciplinary action against the following student</a> </p>
+                         
+                   <p> <a href="#"> Notice About Supplementary Final Exam of Fall, 2014-15</a> </p>
+                         
+                   <p> <a href="#"> Makeup Class Schedule on Friday 27.02.15</a> </p>
+                                      </div>
+            </div>
+                        <!-- End  Latest news here -->
+            <div class="col-md-4">
+              <div class="welcome text-center">
+                <h2 class="title text-black"> </h2>
+                <div class="photo"><img width="100%" height="258" alt="Lab" src="frontend/image/welcomeimage.jpg"></div>
+                
+                <p class="welcomeTxt text-left">
+                  Welcome to Bangladesh University of Business and Technology(BUBT). 
+                  It is one of the eight Universities to receive the Green Signal from the government, 
+                  inspite of its being one of the very young Private Universities of Bangladesh, only 10 years old, established in 2003. It is modeled on North American Universities and it was duly approved by the University Grants Commission of Bangladesh (UGC) and the Ministry of Education, Government of the Peoples' Republic of Bangladesh. Within a short time of its establishment BUBT has succeeded in transforming itself into one of the leading Private Universities of Bangladesh and has since been providing quality education and training.          
+                </p>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="academic">
+                <!-- Start: academic -->
+                <h2 class="title text-black"><i class="fa fa-graduation-cap"></i> Academics</h2>
+                <div id="accordion">
+                  <!-- activate tabs with JavaScript -->
+                  <h4 class="title text-blue">Undergraduate Programs</h4>
+                  <div style="display:block" class="pane">
+
+                    <ul>
+                                            <li>»&nbsp;&nbsp;<a href="#">
+                        BBA (Major in Accounting, Finance, Marketing and HRM ) </a>
+                      </li>
+                                              <li>»&nbsp;&nbsp;<a href="#">
+                        B. Sc. Engg. in EEE for Diploma Engineers </a>
+                      </li>
+                                              <li>»&nbsp;&nbsp;<a href="#">
+                        B. Sc. in CSIT (Four-year Program) </a>
+                      </li>
+                                              <li>»&nbsp;&nbsp;<a href="#">
+                        B. Sc. in CSIT for Diploma Engineers </a>
+                      </li>
+                                              <li>»&nbsp;&nbsp;<a href="#">
+                        B. Sc. Engg. in CSE (Four-year Program) </a>
+                      </li>
+                                              <li>»&nbsp;&nbsp;<a href="#">
+                        B. Sc. in Textile Engineering (Four-year Program) </a>
+                      </li>
+                                              <li>»&nbsp;&nbsp;<a href="#">
+                        B. Sc. in Textile Engineering for Diploma Engineers </a>
+                      </li>
+                                              <li>»&nbsp;&nbsp;<a href="#">
+                        B. Sc. Engg. in CSE for Diploma Engineers </a>
+                      </li>
+                                                                      <!--  <p class="progmore">-->
+                        <a href="#"><img align="right" title="More" alt="Read More"></a>
+                        <!--</p>-->
+                      </ul>
+                    </div>
+
+                    <h4 class="title text-blue">Graduate Programs</h4>
+                    <div class="pane">
+                      <ul>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            EMBA (Major in Accounting, Finance, Marketting & HRM) </a>
+                          </li>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            MBM (Two year evening program) </a>
+                          </li>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            MBA (Major in Accounting, Finance, Marketting & HRM) </a>
+                          </li>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            M. A. in English (Two-year evening program) </a>
+                          </li>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            M. A. in English Language Teaching (ELT) </a>
+                          </li>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            M. Sc. in Economics (One-year evening program) </a>
+                          </li>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            M. Sc. in Mathematics (General: Two-year evening program) </a>
+                          </li>
+                                                  <li>»&nbsp;&nbsp;<a href="#">
+                            M. Sc. in Mathematics (General: One-year evening program) </a>
+                          </li>
+                                                <!-- <p class="progmore">-->
+                        <a href="#"><img align="right" title="More" alt="Read More"></a>
+                        <!--</p>-->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div class="col-md-4">
+                              <div class="list-group text-center2">
+                 <h2 class="title text-black"><i class="fa fa-newspaper-o"></i>  News & Events</h2>
+                
+
+                 <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner" role="" style="min-hight:430px;min-height: 430px; border: 1px solid #ddd;">
+                                          <ol class="carousel-indicators" style="bottom:-14px;">
+                        <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic1" data-slide-to="4"></li>
+                      </ol>
+
+
+                     <div class='item active'>                      <a class="menuLoadView" href="#">
+                   <div class="list-group-item col-md-12 col-sm-6 col-xs-12 padding-bt-10 newsEvents">
+                           <div class="col-md-3">
+                               <img style="height: 60px; width:60px; padding:0px;" class="img-responsive img-thumbnail" alt="Lab" src="assets/notice/1.jpg">
+                           </div>
+                         <div class="news-event col-md-9" style="overflow: hidden; padding:0px;">
+                                <b>Class Routine Fall-11 (Day Program)</b></br>
+                                <h6 class="label label-success" title="Published Date: 01-Mar-2015"><i class="fa fa-newspaper-o"></i> 01-Mar-2015</h6>
+                         </div>
+
+                 </div>
+                      </a>
+                                      <a class="menuLoadView" href="#">
+                   <div class="list-group-item col-md-12 col-sm-6 col-xs-12 padding-bt-10 newsEvents">
+                           <div class="col-md-3">
+                               <img style="height: 60px; width:60px; padding:0px;" class="img-responsive img-thumbnail" alt="Lab" src="assets/notice/no-image.png">
+                           </div>
+                         <div class="news-event col-md-9" style="overflow: hidden; padding:0px;">
+                                <b>International Mother Language and Martyrs' Day 2015 was observed in BUBT with due honour.</b></br>
+                                <h6 class="label label-success" title="Published Date: 01-Mar-2015"><i class="fa fa-newspaper-o"></i> 01-Mar-2015</h6>
+                         </div>
+
+                 </div>
+                      </a>
+                                      <a class="menuLoadView" href="#">
+                   <div class="list-group-item col-md-12 col-sm-6 col-xs-12 padding-bt-10 newsEvents">
+                           <div class="col-md-3">
+                               <img style="height: 60px; width:60px; padding:0px;" class="img-responsive img-thumbnail" alt="Lab" src="assets/notice/no-image.png">
+                           </div>
+                         <div class="news-event col-md-9" style="overflow: hidden; padding:0px;">
+                                <b>Revised date and time of postponed Semester Final Examination of Fall,2014-15</b></br>
+                                <h6 class="label label-success" title="Published Date: 22-Feb-2015"><i class="fa fa-newspaper-o"></i> 22-Feb-2015</h6>
+                         </div>
+
+                 </div>
+                      </a>
+                
+                                <a class="menuLoadView" href="#">
+                   <div class="list-group-item col-md-12 col-sm-6 col-xs-12 padding-bt-10 newsEvents">
+                           <div class="col-md-3">
+                               <img style="height: 60px; width:60px; padding:0px;" class="img-responsive img-thumbnail" alt="Lab" src="assets/notice/no-image.png">
+                           </div>
+                         <div class="news-event col-md-9" style="overflow: hidden; padding:0px;">
+                                <b>International Mother Language and Martyrs' Day 2015 was observed in BUBT with due honour.</b></br>
+                                <h6 class="label label-success" title="Published Date: 01-Mar-2015"><i class="fa fa-newspaper-o"></i> 01-Mar-2015</h6>
+                         </div>
+
+                 </div>
+                      </a>  
+                                  
+                  </div>
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bg-white">
+          <div class="">
+            <div class="col-md-12">
+              <div class="archive">
+                <!-- Start: archive -->
+                <h2 class="title text-black"><i class="fa  fa-file-archive-o"></i> Archive</h2>
+               
+                  <div class="col-md-4">
+                  <div id="accordion" class="panel-group">
+                      <div class="panel panel-default archive">
+                          <div class="panel-heading">
+                            <h4 class="panel-title title text-blue">
+                              <a class="accordion-toggle" href="#collapseTwo" data-parent="#accordion" data-toggle="collapse">
+                                  <i class="icon icon icon-bars"></i>
+                                  Journals
+                              </a>
+                            </h4>
+                          </div>
+                    
+
+                                                                            <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Practices of Listening in the National University of Bangladesh</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Numerical Study on the Steady State Natural Convection in a Partially Heated Inclined Square Cavity Containing Adiabatic Circular Cylinder</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  The Extent and Aspect of Reference Group Influence on Soft Drink Consumers of Bangladesh</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Internet Banking of Private Commercial Banks: Customer’s Usage and Attitude</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Effect of Machine Dome Size on Bursting Strength Test (Kpa) of Different Types of Knit Fabric Construction</span>                        
+                    </a>
+                                       <div> <a href="#" class="readmore">
+                      Read more ...
+                    </a></div>
+                  </div>
+                 
+                </div>  
+                </div>                      
+              
+                 
+
+                <div class="col-md-4">
+                  <div id="accordion" class="panel-group">
+                      <div class="panel panel-default archive">
+                          <div class="panel-heading">
+                            <h4 class="panel-title title text-blue">
+                              <a class="accordion-toggle" href="#collapseTwo" data-parent="#accordion" data-toggle="collapse">
+                                  <i class="icon icon icon-bars"></i>
+                                  Research
+                              </a>
+                            </h4>
+                          </div>
+                    
+
+                                                                            <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Challenges of Language Teaching in Bangladesh, with special reference to English</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Thermal Stability of CNT Reinforced PVA Nanocomposite</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Influence of Neighbouring Language on Bangla</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Reliability State of Accounting Control Systems Practiced by Private Commercial Banks in Bangladesh</span>                        
+                    </a>
+                                        <a href="#" class="menuLoadView list-group-item ">
+                      <span class="list-group-item-heading"><i class="fa fa-hand-o-right"></i>  Challenges of Language Teaching in Bangladesh, with special reference to English</span>                        
+                    </a>                        
+                    
+                                      <div>  <a href="#" class="readmore">
+                      Read more ...
+                    </a></div>
+                  </div>
+                 
+                </div>  
+                </div>  
+
+
+                  <div class="col-md-4">
+                  <div id="accordion" class="panel-group">
+                      <div class="panel panel-default archive">
+                          <div class="panel-heading">
+                            <h4 class="panel-title title text-blue">
+                              <a class="accordion-toggle" href="#collapseTwo" data-parent="#accordion" data-toggle="collapse">
+                                  <i class="icon icon icon-bars"></i>
+                                  Latest News
+                              </a>
+                            </h4>
+                          </div>
+                    <div id="carousel" style="padding:5px 0px 5px 10px;">
+                                                                      
+                      <div class="l_notice">
+                          <strong style=" font-size:14px;">
+                            <a href="#">
+                             Notice about Revised date ofSemester Final Examination of Fall Semester, 2014-15 
+                            </a></br><span class="published-date"> Published Date: 02-Mar-2015</span>
+                          </strong>
+                          <p>Notice about Revised date ofSemester Final Examination of Fall Semester, 2014-15....<a href="#"> More</a></p>
+                      </div>
+                      <hr>
+                      
+                      <div class="l_notice">
+                          <strong style=" font-size:14px;">
+                            <a href="#">
+                             Permission for completing the Internship Training Program of MBA students 
+                            </a></br><span class="published-date"> Published Date: 02-Mar-2015</span>
+                          </strong>
+                          <p>Permission for completing the Internship Training Program of MBA students....<a href="#"> More</a></p>
+                      </div>
+                      <hr>
+                      
+                      <div class="l_notice">
+                          <strong style=" font-size:14px;">
+                            <a href="#">
+                             Notice about starting all classes of Spring 2015 
+                            </a></br><span class="published-date"> Published Date: 02-Mar-2015</span>
+                          </strong>
+                          <p>Notice about starting all classes of Spring 2015....<a href="#"> More</a></p>
+                      </div>
+                      <hr>
+                      
+                      <div class="l_notice">
+                          <strong style=" font-size:14px;">
+                            <a href="#">
+                             University Authority has taken disciplinary action against the following student 
+                            </a></br><span class="published-date"> Published Date: 01-Mar-2015</span>
+                          </strong>
+                          <p>University Authority has taken disciplinary action against the following student....<a href="#"> More</a></p>
+                      </div>
+                      <hr>
+                      
+                      <div class="l_notice">
+                          <strong style=" font-size:14px;">
+                            <a href="#">
+                             Notice About Supplementary Final Exam of Fall, 2014-15 
+                            </a></br><span class="published-date"> Published Date: 01-Mar-2015</span>
+                          </strong>
+                          <p>Notice About Supplementary Final Exam of Fall, 2014-15....<a href="#"> More</a></p>
+                      </div>
+                      <hr>
+                      
+                      <div class="l_notice">
+                          <strong style=" font-size:14px;">
+                            <a href="#">
+                             Makeup Class Schedule on Friday 27.02.15 
+                            </a></br><span class="published-date"> Published Date: 01-Mar-2015</span>
+                          </strong>
+                          <p>Makeup Class Schedule on Friday 27.02.15....<a href="#"> More</a></p>
+                      </div>
+                      <hr>
+                                            
+                  </div>
+
+                                       <div> <a href="#" class="readmore">
+                      Read more ...
+                    </a></div>
+                  </div>
+                </div>  
+                </div>
+
+
+           
+
+            
+            </div>
+        </div>
+</div>
+</div>
+
+
+
+	</div>
+	
+</div>	
+
+<footer>
+    <div class="row height10 bg-whitesmoke"></div>
+    <div class="row height20 bg-dark-sky"></div>
+    <div class="row bg-blue">
+        <div class="container">
+            <ul id="fotter-menu" class="nav nav-pills nav-justified">
+                <li><a class="text-whitesmoke" href="#">Home </a></li>
+                <li><a class="text-whitesmoke" href="#">Sitemap</a></li>
+                <li><a class="text-whitesmoke" href="#">All notice board</a>
+                </li>
+                <li><a class="text-whitesmoke" href="#">Gallery</a></li>
+                <li><a class="text-whitesmoke" href="#">Contact us</a></li>
+                <li><a class="text-whitesmoke" href="#">Report a bug </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row padding-bt-20 bg-dark-blue">
+        <div class="container">
+            <div class="col-md-6" style="border-right:1px solid #113b5b;">
+                <div class="quickcontent">
+                    <h4 class="title text-white"><i class="fa  fa-link"></i> Quick Links</h4>
+                    <!-- Start: quickcontent -->
+                    <div class="col-md-6">
+                        <ul>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    BUBT JOURNAL </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    Download Centre </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    Admission Requirements </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    Registration Procedure </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    Tution Fee </a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+
+
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    <b>ACM-ICPC 2014</b> </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    Career </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    Gallery </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    Sports Club </a></li>
+                            <li>&nbsp;»&nbsp;<a href="#">
+                                    IT Club </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 pull-right" style="padding-top:45px;">
+                <h4 class="title text-white col-md-5"><i class="fa fa-paw"></i> Connect with us:</h4>
+                <ul class="social-icon  col-md-7">
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa fa-twitter"></i> </a></li>
+                    <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin "></i></a></li>
+                    <li class="youtube"><a href="#"><i class="fa fa-youtube "></i></a></li>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row height30 bg-blue text-whitesmoke text-center padding-bt-10">
+        ©2015 Bangladesh University of Business&Technology
+    </div>
+    </div>
+
+
+</footer>
+
+
+</div>
+<!-- main-body end here -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="frontend/js/bootstrap.min.js"></script>
+</body>
+
+</html>

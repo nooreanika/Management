@@ -1,0 +1,382 @@
+body {
+   /* background-color: #26AEF8;
+    background: url("../image/bg-header-table.jpg")  scroll 0 -3px #26AEF8;*/
+    background-color: white;
+
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.input-lg, .form-group-lg .form-control {
+	border-radius: 0px;
+}
+.menu-bar li a{ font-size:14px; color: #ffffff;}
+
+.main-body > .container {
+	max-width: 1000px;
+}
+.main-body {
+	border: 1px solid #60CFEB;
+	border-top: 0px;
+	border-bottom: 0px;
+
+}
+
+/* background color */
+.bg-whitesmoke {
+	background-color: #F0E7D8;
+}
+
+.bg-blue {
+	background-color: #1d71bf;
+}
+.bg-dark-blue {
+	background-color: #0065B3;
+}
+
+
+.bg-gray {
+	background-color: #F2F2F4;
+}
+
+.bg-white {
+	background-color: #FFFFFF;
+}
+.bg-sky {
+	background-color: #60CFEB;
+}
+.bg-green {
+	background-color: #18AD63;
+}
+
+.bg-dark-sky {
+	background-color: #01AEF0;
+}
+
+.bg-dark-blue a {
+	color: #60CFEB;
+}
+.bg-dark-blue a:hover {
+	color: black;
+}
+
+
+
+.text-blue{
+	color: #0065B3;
+}
+.text-sky{
+	color: #F2F2F4;
+}
+.text-white{
+	color: #FFFFFF;
+}
+
+.text-whitesmoke {
+	color: #F0E7D8;
+}
+.text-dark-sky {
+	color: #01AEF0;
+}
+
+
+.padding-bt-10 {
+	padding: 10px 0px;
+}
+.padding-bt-15 {
+	padding: 15px 0px;
+}
+.padding-bt-20 {
+	padding: 20px 0px;
+}
+.padding-bt-25 {
+	padding: 25px 0px;
+}
+.padding-bt-30 {
+	padding: 30px 0px;
+}
+
+.margin-bt-10 {
+    margin: 10px 0px;
+}
+.margin-bt-15 {
+    margin: 15px 0px;
+}
+.margin-bt-20 {
+    margin: 20px 0px;
+}
+.margin-bt-25 {
+    margin: 25px 0px;
+}
+.margin-bt-30 {
+    margin: 30px 0px;
+}
+
+
+.height10 {
+	height: 10px;
+}
+.height20 {
+	height: 20px;
+}
+
+.height30 {
+	height: 30px;
+}
+.height50 {
+	height: 50px;
+}
+.height100 {
+	height: 100px;
+}
+.height200 {
+	height: 200px;
+}
+.height300 {
+	height: 300px;
+}
+
+
+#brand-text {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.title {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+#header-menu {
+	padding: 1px 0px;
+}
+#header-menu li a {
+	border-radius: 0px;
+	color: black;
+}
+#header-menu li a i {
+	color: white;
+}
+#header-menu li a:hover {
+	background-color: #4fbeda;
+}
+#banner {
+	background-color: black;
+}
+.carousel-inner {
+	/* height: 550px; */
+}
+#banner img {
+	width: 100%;
+	height:200px;
+}
+body{ font-family:calibri;}
+.carousel-caption_custom{background-color: black;
+    bottom: 71px;
+    color: #fff;
+    left: 0;
+    opacity: 0.44;
+    padding: 18px 0 18px 120px;
+    padding-top: 20px;
+    position: absolute;
+    right: 15%;
+    text-align: left;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    width: 567px;
+    z-index: 10;
+}
+
+
+.navbar-default {
+	color: white;
+	border: 0px;
+	border-radius: 0px;
+	margin: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #065BB2;
+}
+
+
+
+.navbar-nav .open .dropdown-menu, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #065BB2;
+	
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: #0086ED;
+    color: white;
+    text-decoration: none;
+}
+#megamenu ul.dropdown-menu {
+display: none;
+}
+#megamenu li.dropdown:hover > ul {
+display: block;
+}
+
+#megamenu li.dropdown li:hover > ul.dropdown-menu {
+display: block;
+position:absolute;
+width:200px;
+top:-2px;
+left:100%;
+z-index:1000;
+border-radius: 0px !important;
+padding: 0px;
+}
+#megamenu > ul > li {
+    border-right: 1px solid #1B67AA;
+}
+#megamenu > ul > li:last-child{
+    border: 0px;
+}
+ li:hover { position:relative; z-index:2000; }
+
+
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-top: 0px;
+    border-radius: 4px;
+    box-shadow: 0 20px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: outside none none;
+    margin: 2px 0 0;
+    min-width: 270px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    z-index: 1000;
+}
+.dropdown:hover, .dropdown:hover .dropdown-menu {
+    display: block;
+    background:#065BB2;
+    color: white;
+}
+#megamenu .dropdown a {
+    color:white !important;
+}
+#logo {
+	padding: 8px 0px;
+}
+#fotter-menu li {
+	border-right: 1px solid #113B5B;
+}
+#fotter-menu li:last-child{
+	border-right: 0px;
+}
+#fotter-menu li a:hover {
+	border-radius: 0px;
+	background-color: #0065B3;
+	color: white;
+}
+.welcomeTxt{ text-align:justify;}
+.search-input{ height:34px;}
+.search-button{ height:36px;margin-left:-5px;}
+.fa-search{font-size:16px;}
+.photo img{ display:inline-block; vertical-align:middle;}
+.photo p{ display: inline-block;
+    padding-left: 2%;
+    text-align: justify;
+    vertical-align: middle;
+    width: 68%;}
+.photo{ margin-bottom:5px;}
+.log-in ul li a{ padding: 5px;}
+
+.social-icon li {
+	float: left;
+	margin: 5px 5px;
+	padding: 5px;	
+	border-radius: 3px;	
+	height: 40px;
+	width: 40px;
+	text-align: center;
+}
+.social-icon li:hover {
+	background-color: #FFFFFF;
+}
+.social-icon li a i {
+	font-size: 30px;
+	color: white;
+}
+
+.facebook {
+	color: white;
+	background-color: #3B5999;
+}
+.facebook:hover i {
+	color: #3B5999;
+}
+
+.twitter {
+	color: white;
+	background-color: #1DACED;
+}
+.twitter:hover i  {
+	color: #1DACED;
+}
+
+.google {
+	color: white;
+	background-color: #D72B2B;
+}
+.google:hover  i {
+	color:  #D72B2B;
+}
+
+.linkedin {
+	color: white;
+	background-color: #006599;
+}
+.linkedin:hover i  {
+	color: #006599;
+}
+
+.youtube {
+	color: #C8312C;
+}
+.youtube:hover i {
+	color: #C8312C;
+}
+.list-group .list-group-item.active a {
+    color:white;
+}
+.newsEvents {
+    cursor: pointer;
+    transition: 1s;
+}
+.newsEvents:hover {
+    background-color: #B2D9E8;
+    color: white;
+}
+
+.inner-page-header {
+    margin: 0 auto;
+    padding: 20px 0;
+    color: white;
+}
+.inner-page-header .page-title {
+    font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 1px 2px black;
+    text-transform: capitalize;
+}
+.upper-shadow {
+    box-shadow: 0px -15px 30px blue;
+}
